@@ -1,8 +1,12 @@
-import MainLayout from "./layouts/MainLayout";
+
+import { Toaster } from './components/ui/Toaster';
+import MainLayout from './layouts/MainLayout';
 
 function App() {
+  
   return (
-    <div className="bg-[#0A192F]">
+    <div className='bg-[#0A192F]'>
+      <Toaster />
       <MainLayout />
     </div>
   );

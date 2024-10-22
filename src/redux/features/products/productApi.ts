@@ -3,8 +3,8 @@ import { IProduct } from "@/types/globalTypes";
 
 const productApi = api.injectEndpoints({
   endpoints: (builder) => ({
-    getProducts: builder.query<IProduct[], void>({
-      query: () => "/products",
+    getProducts: builder.query<IProduct[], number>({
+      query: (page = 1) => `/products?limit=${page * 5}`,
     }),
   }),
 });

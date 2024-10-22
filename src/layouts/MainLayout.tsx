@@ -1,15 +1,13 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "./Navbar";
+import { Outlet } from 'react-router-dom';
+import Navbar from './Navbar';
 
-const MainLayout = () => {
+export default function MainLayout() {
   return (
-    <div className="bg-[#0A192F]">
+    <div>
       <Navbar />
-      <div>
+      <div className="pt-16">
         <Outlet />
       </div>
     </div>
   );
-};
-
-export default MainLayout;
+}
