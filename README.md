@@ -33,3 +33,12 @@ Please follow the below instructions to run different branches of this repositor
    ```sh
    npm run dev
    ```
+
+   ## Tech Stack
+
+***Frontend***
+
+- **[React]
+- **[Redux]
+- **[JavaScript]
+- **[Tailwind]
