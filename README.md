@@ -30,16 +30,18 @@ Please follow the below instructions to run different branches of this repositor
    npm i
    ```
 5. to install all packages and node_modules
+
    ```sh
    npm run dev
    ```
 
    ## Tech Stack
 
-***Frontend***
+**_Frontend_**
 
-<h1>React</h1>
-<h1>Redux</h1>
-<h1>JavaScript</h1>
-<h1>Tailwind</h1>
-
+<ul>
+<li>React</li>
+<li>Redux</li>
+<li>JavaScript</li>
+<li>Tailwind</li>
+</ul>
