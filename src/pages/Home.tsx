@@ -5,10 +5,11 @@ import { useGetProductsQuery } from "@/redux/features/products/productApi";
 import ProductCard from "@/components/ProductCard";
 import { IProduct } from "@/types/globalTypes";
 
+
 export default function Home() {
-  const { data: productsData } = useGetProductsQuery();
+  const { data: productsData=[] } = useGetProductsQuery(1);
   return (
-    <div className="bg-[#0C1D35] min-h-screen  ">
+    <div className="bg-[#0C1D35] min-h-screen mx-2 ">
       <div className="md:flex  justify-between items-center  max-w-7xl mx-auto ">
         <div>
           <h1 className="mt-10 md:mt-1 text-3xl md:text-4xl lg:text-6xl font-black text-primary mb-2">
@@ -44,7 +45,7 @@ export default function Home() {
           </Button>
         </div>
       </div>
-      {/* <Footer /> */}
+      
     </div>
   );
 }

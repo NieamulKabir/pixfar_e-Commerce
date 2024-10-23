@@ -28,7 +28,7 @@ const Products = () => {
   return (
     <div className="bg-[#0C1D35] relative min-h-screen">
       <div className="max-w-7xl mx-auto text-white">
-        <h1 className="mt-20 text-center text-primary font-bold text-3xl md:text-5xl">
+        <h1 className="pt-20 text-center text-primary font-bold text-3xl md:text-5xl">
           Explore All Products
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pb-20 mx-2 mt-10">

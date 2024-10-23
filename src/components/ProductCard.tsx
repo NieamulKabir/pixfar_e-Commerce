@@ -21,7 +21,7 @@ export default function ProductCard({ product }: IProps) {
   };
   return (
     <div>
-      <div className="rounded-2xl text-white bg-[#505152] h-[450px] flex flex-col justify-between items-start  overflow-hidden shadow-md border border-gray-100 hover:shadow-2xl hover:scale-[102%] transition-all gap-2">
+      <div className="rounded-2xl text-white bg-[#505152] h-[500px] flex flex-col justify-between items-start  overflow-hidden shadow-md border border-gray-100 hover:shadow-2xl hover:scale-[102%] transition-all gap-2">
         <Link to="/" className="w-full">
           <img
             className="w-full h-[230px] "
@@ -29,7 +29,8 @@ export default function ProductCard({ product }: IProps) {
             alt="product"
           />
           <div className="px-3 space-y-2">
-            <h1 className="text-xl font-semibold ">{product?.title}</h1>
+            <h1 className="text-xl font-bold ">{product?.title.slice(0,50)}</h1>
+            <p className="">{product?.description.slice(0,100)}..</p>
             <p>Rating: {product?.rating?.rate}</p>
             <p className="text-sm">Price: {product?.price}</p>
           </div>
