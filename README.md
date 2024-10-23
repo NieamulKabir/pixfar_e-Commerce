@@ -38,7 +38,8 @@ Please follow the below instructions to run different branches of this repositor
 
 ***Frontend***
 
-- **[React]
-- **[Redux]
-- **[JavaScript]
-- **[Tailwind]
+<h1>React</h1>
+<h1>Redux</h1>
+<h1>JavaScript</h1>
+<h1>Tailwind</h1>
+
